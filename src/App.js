@@ -14,9 +14,9 @@ function App() {
           path="/"
           element={
             <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-center">
-              <h1 className="text-5xl font-bold mb-4">Your Name</h1>
+              <h1 className="text-5xl font-bold mb-4">Laksh Pandya</h1>
               <p className="text-lg text-gray-700 mb-8">
-                Laksh Pandya, i code, draw a bit, stuff.
+                I code, draw a bit, stuff.
               </p>
               <div className="flex gap-6">
                 <Link
