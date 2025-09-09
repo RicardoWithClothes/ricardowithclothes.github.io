@@ -6,7 +6,6 @@ import "./App.css";
 
 function App() {
   return (
-    
     <Router>
       <Routes>
         {/* Main Landing Page */}
@@ -21,7 +20,7 @@ function App() {
               <div className="flex gap-6">
                 <Link
                   to="/coding"
-                  className="px-6 py-3 bg-blue-500 text-white rounded-xl shadow-lg hover:bg-blue-600 transition"
+                  className="px-6 py-3 bg-gray-800 text-green-700 rounded-xl shadow-lg hover:bg-black transition"
                 >
                   Coding
                 </Link>
@@ -33,7 +32,7 @@ function App() {
                 </Link>
                 <Link
                   to="/other"
-                  className="px-6 py-3 bg-purple-500 text-white rounded-xl shadow-lg hover:bg-purple-600 transition"
+                  className="px-6 py-3 bg-purple-900 text-white rounded-xl shadow-lg hover:bg-purple-600 transition"
                 >
                   Other
                 </Link>
